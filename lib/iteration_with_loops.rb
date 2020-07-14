@@ -8,7 +8,8 @@ def join_nested_strings(src)
     while element_index < row_index[element_index].count do
       if row_index[element_index] == ""
         single_value = single_value += row_index[element_index]
+        element_index += 1 
       end
     row_index += 1 
-    single_value
   end
+  single_value
