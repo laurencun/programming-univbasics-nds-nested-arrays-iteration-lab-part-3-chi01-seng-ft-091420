@@ -10,5 +10,5 @@ def join_nested_strings(src)
         single_value = single_value += row_index[element_index]
       end
     row_index += 1 
+    single_value
   end
-single_value
